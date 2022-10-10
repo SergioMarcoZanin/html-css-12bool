@@ -1,0 +1,21 @@
+@import url(12bool.css);
+/* BOX */
+.box{
+    height: 3.125rem;
+    background-color: blue;
+    border: .125rem solid white;
+    text-align: center;
+    line-height: 3.125rem;
+    color: white;
+}
+.box-nested{
+    height: 3.125rem;
+    background-color: lightgreen;
+    border: .3125rem solid blue;
+    text-align: center;
+    line-height: 3.125rem;
+    color: black;
+}
+section:not(:last-child){
+    padding-bottom: 1.25rem;
+}
